@@ -5,9 +5,8 @@ export const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="bg-main-bg flex justify-between items-center py-6 px-20">
-      <h1 className="text-5xl font-extrabold">MT</h1>
-      <div className="flex gap-12 group">
+    <nav className="w-full bg-main-bg flex justify-center items-center py-6 px-20">
+      <div className="flex gap-4 md:gap-12 group">
         <Link
           href="/"
           className={`${
