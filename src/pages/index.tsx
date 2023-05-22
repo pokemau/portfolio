@@ -25,7 +25,7 @@ const Home = () => {
               className="w-full max-w-[20rem] mx-auto mb-2 rounded-md aspect-square"
             />
             <div className="flex flex-col items-center">
-              <h1 className="text-[3rem] text-center font-bold leading-none">
+              <h1 className="font-[Oswald] text-[3.5rem] text-center font-bold leading-[4rem]">
                 MAURICE TAÑECA
               </h1>
               <h3 className="text-2xl font-medium">Web Developer</h3>
