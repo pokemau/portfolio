@@ -30,7 +30,7 @@ const Techstack = () => {
 
         <div className="flex items-center gap-1 text-2xl">
           <SiReact className="text-blue-400" />
-          <p>ReactJS</p>
+          <p>React JS</p>
         </div>
         <div className="flex items-center gap-1 text-2xl">
           <SiNodedotjs className="text-[#6cc24a]" />

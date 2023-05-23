@@ -12,6 +12,7 @@ module.exports = {
         "card-bg": "var(--card-bg)",
         "main-text": "var(--main-text)",
         "main-hover-bg": "var(--main-hover-bg)",
+        yel: "var(--yel)",
       },
     },
   },

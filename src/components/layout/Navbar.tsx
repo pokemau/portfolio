@@ -10,9 +10,9 @@ export const Navbar = () => {
         <Link
           href="/"
           className={`${
-            router.pathname == "/" ? "border-b-[3px] border-main-text" : ""
-          } text-xl p-2 rounded-tl rounded-tr font-semibold hover:bg-main-hover-bg
-          transition-all duration-75`}
+            router.pathname == "/" ? "border-main-text" : "border-transparent"
+          } border-b-[3px] text-xl p-2 rounded-tl rounded-tr font-semibold
+          transition-all duration-200 hover:border-yel`}
         >
           Home
         </Link>
@@ -20,10 +20,10 @@ export const Navbar = () => {
           href="/projects"
           className={`${
             router.pathname == "/projects"
-              ? "border-b-[3px] border-main-text"
-              : ""
-          } text-xl p-2 rounded-tl rounded-tr font-semibold hover:bg-main-hover-bg
-          transition-all duration-75`}
+              ? "border-main-text"
+              : "border-transparent"
+          } border-b-[3px] text-xl p-2 rounded-tl rounded-tr font-semibold 
+          transition-all duration-200 hover:border-yel`}
         >
           Projects
         </Link>
@@ -31,10 +31,10 @@ export const Navbar = () => {
           href="/contact"
           className={`${
             router.pathname == "/contact"
-              ? "border-b-[3px] border-main-text"
-              : ""
-          } text-xl p-2 rounded-tl rounded-tr font-semibold hover:bg-main-hover-bg
-          transition-all duration-75`}
+              ? "border-main-text"
+              : "border-transparent"
+          } border-b-[3px] text-xl p-2 rounded-tl rounded-tr font-semibold
+          transition-all duration-200 hover:border-yel`}
         >
           Contact
         </Link>
