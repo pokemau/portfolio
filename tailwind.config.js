@@ -13,6 +13,7 @@ module.exports = {
         "main-text": "var(--main-text)",
         "main-hover-bg": "var(--main-hover-bg)",
         yel: "var(--yel)",
+        "yel-hover": "var(--yel-hover)",
       },
     },
   },
