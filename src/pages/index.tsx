@@ -40,7 +40,7 @@ const Home = () => {
               </h3>
             </div>
 
-            <div className="flex justify-center md:justify-start ap-2 mt-4 w-full">
+            <div className="flex justify-center md:justify-start gap-2 mt-4 w-full">
               <Link
                 href="https://github.com/pokemau"
                 target="_blank"

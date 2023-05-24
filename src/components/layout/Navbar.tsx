@@ -10,7 +10,11 @@ export const Navbar = () => {
       items-center py-2 px-5 md:px-20 transition-all">
       <div className="hidden md:flex items-center justify-center">
         <Link href="/">
-          <h1 className="text-[2.5rem] lg:text-[3.2rem] font-bold">MT</h1>
+          <h1
+            className="text-[2.5rem] lg:text-[3.2rem] font-bold hover:text-yel
+          transition-all duration-100">
+            MT
+          </h1>
         </Link>
       </div>
       <div className="flex gap-1 md:gap-6 group">
