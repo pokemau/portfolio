@@ -37,12 +37,12 @@ const Home = () => {
               </h1>
               <h3
                 className="text-2xl md:mt-2 md:text-[1.8rem] font-normal
-                font-[Oswald]">
+                lg:text-[2.4rem] font-[Oswald]">
                 Web Developer
               </h3>
             </div>
 
-            <div className="flex justify-center md:justify-start gap-2 mt-4 w-full">
+            <div className="flex justify-center md:justify-start ap-2 mt-4 w-full">
               <Link
                 href="https://github.com/pokemau"
                 target="_blank"
