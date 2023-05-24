@@ -6,9 +6,14 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="w-full bg-main-bg flex justify-center items-center pt-4 
-    py-6 px-20">
-      <div className="flex gap-4 md:gap-12 group">
+      className="w-full bg-main-bg flex md:justify-between justify-center 
+      items-center py-2 px-5 md:px-20 transition-all">
+      <div className="hidden md:flex items-center justify-center">
+        <Link href="/">
+          <h1 className="text-[2.5rem] lg:text-[3.2rem] font-bold">MT</h1>
+        </Link>
+      </div>
+      <div className="flex gap-1 md:gap-6 group">
         <Link
           href="/"
           className={`${

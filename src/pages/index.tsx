@@ -13,11 +13,9 @@ const Home = () => {
         <p className="font-bold">Home</p>
       </div>
 
-      {/* main cont */}
       <div
         className="bg-card-bg w-[90%] lg:w-[80%] h-[73vh] mx-auto overflow-y-auto 
         flex flex-col items-center">
-        {/* img, name, desc, social links */}
         <div
           className="w-[90%] md:w-[95%] flex flex-col items-center md:gap-4 mt-4
           md:flex-row md:my-4 lg:mt-8 md:items-start md:justify-center">
