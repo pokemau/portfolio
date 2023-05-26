@@ -5,10 +5,14 @@ import TestTechstack from "@/components/techstack/Techstack";
 import myImg from "../images/my_pic.webp";
 import ghLogo from "../images/githubLogo.png";
 import linkedInLogo from "../images/linkedin.png";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Maurice | Home</title>
+      </Head>
       <div
         className="bg-[#303030] h-[2rem] w-[90%] lg:w-[80%] m-auto rounded-tl-2xl 
         rounded-tr-2xl flex items-center justify-center">
