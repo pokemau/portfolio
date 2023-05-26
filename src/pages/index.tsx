@@ -22,6 +22,7 @@ const Home = () => {
           className="w-[90%] md:w-[95%] flex flex-col items-center md:gap-4 mt-4
           md:flex-row md:my-4 lg:mt-8 md:items-start md:justify-center">
           <Image
+            priority
             src={myImg}
             width={300}
             height={300}

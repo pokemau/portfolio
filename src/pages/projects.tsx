@@ -15,7 +15,9 @@ const Projects = () => {
         className="bg-card-bg w-[90%] lg:w-[80%] h-[73vh] mx-auto overflow-y-auto 
         flex flex-col items-center gap-3 pt-4">
         {ProjectsList &&
-          ProjectsList.map((project) => <ProjectCard project={project} />)}
+          ProjectsList.map((project) => (
+            <ProjectCard project={project} key={project.id} />
+          ))}
       </div>
 
       <div
