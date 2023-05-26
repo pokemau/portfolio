@@ -1,13 +1,12 @@
-import {
-  SiTypescript,
-  SiJavascript,
-  SiTailwindcss,
-  SiReact,
-  SiNodedotjs,
-  SiPostgresql,
-  SiFirebase,
-  SiExpress,
-} from "react-icons/si";
+import TSLogo from "../../images/ts.png";
+import JSLogo from "../../images/js.png";
+import expressLogo from "../../images/express.png";
+import reactLogo from "../../images/react.png";
+import nodeLogo from "../../images/node.png";
+import postgresLogo from "../../images/postgres.png";
+import firebaseLogo from "../../images/firebase.png";
+import tailwindLogo from "../../images/tailwind.png";
+import Image from "next/image";
 
 const Techstack = () => {
   return (
@@ -17,42 +16,90 @@ const Techstack = () => {
       </h2>
       <div className="mt-2 md:mt-4 flex flex-col md:flex-row gap-2 md:gap-20">
         <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiTypescript className="text-blue-500" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              src={TSLogo}
+              alt="TypeScript Logo"
+              width={40}
+              height={40}
+              className="rounded-md"
+            />
             <p>TypeScript</p>
           </div>
 
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiJavascript className="text-yellow-300" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={JSLogo}
+              alt="JavaScript Logo"
+              className="rounded-md"
+            />
             <p>JavaScript</p>
           </div>
 
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiExpress className="text-gray-200" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={expressLogo}
+              alt="Express Logo"
+              className="rounded-md"
+            />
             <p>Express JS</p>
           </div>
 
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiReact className="text-blue-400" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={reactLogo}
+              alt="React Logo"
+              className="rounded-md"
+            />
             <p>React JS</p>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiNodedotjs className="text-[#6cc24a]" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={nodeLogo}
+              alt="Node JS Logo"
+              className="rounded-md"
+            />
             <p>Node JS</p>
           </div>
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiPostgresql className="text-[#2496e2]" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={postgresLogo}
+              alt="PostgreSQL Logo"
+              className="rounded-md"
+            />
             <p>PostgreSQL</p>
           </div>
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiFirebase className="text-[#d89117]" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={firebaseLogo}
+              alt="Firebase Logo"
+              className="rounded-md"
+            />
             <p>Firebase</p>
           </div>
-          <div className="flex items-center gap-1 text-[1.3rem]">
-            <SiTailwindcss className="text-blue-400" />
+          <div className="flex items-center gap-2 text-[1.3rem]">
+            <Image
+              width={40}
+              height={40}
+              src={tailwindLogo}
+              alt="Tailwind CSS Logo"
+              className="rounded-md"
+            />
             <p>Tailwind CSS</p>
           </div>
         </div>

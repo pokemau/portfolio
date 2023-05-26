@@ -1,26 +1,38 @@
-import { AiFillGithub } from "react-icons/ai";
-import { FiExternalLink } from "react-icons/fi";
-
 import yahalloImg from "../../images/chatapp.webp";
 import flashcardoImg from "../../images/flaschardo1.webp";
 import lolChampaImg from "../../images/lolchamps.webp";
 import sergdleImg from "../../images/sergdle.webp";
+import ghLogo from "../../images/githubLogo.png";
+import redirectIcon from "../../images/go-to-icon.png";
 
-export const ProjectsList = [
+import { StaticImageData } from "next/image";
+
+export type ProjectType = {
+  id: string;
+  name: string;
+  desc: string;
+  site: string;
+  techUsed: string[];
+  links: { site: string; icon: StaticImageData }[];
+  img: StaticImageData;
+};
+
+export const ProjectsList: ProjectType[] = [
   {
     id: "yahallo-chat-app",
     name: "Yahallo",
-    desc: "A website for making flashcards to help the user study for an upcoming quiz or exam. It uses the browser's local storage to store the flashcard sets which can be deleted by the user.",
+    desc: "A real-time chat app with user authentication throught Firebase's Google Authentication.",
+    // descw: "A webapp with NextJS for the frontend and Firebase for the backend. The user can login through Firebase's built-in Google authentication. Users can send messages in a public chatroom with realtime updates",
     site: "https://yahallo.vercel.app/",
     techUsed: ["NEXTJS", "FIREBASE", "TAILWIND"],
     links: [
       {
         site: "https://github.com/pokemau/Chat-App",
-        icon: AiFillGithub,
+        icon: ghLogo,
       },
       {
         site: "https://yahallo.vercel.app/",
-        icon: FiExternalLink,
+        icon: redirectIcon,
       },
     ],
     img: yahalloImg,
@@ -35,11 +47,11 @@ export const ProjectsList = [
     links: [
       {
         site: "https://github.com/pokemau/Flashcardo-2",
-        icon: AiFillGithub,
+        icon: ghLogo,
       },
       {
         site: "https://flashcardo.vercel.app/",
-        icon: FiExternalLink,
+        icon: redirectIcon,
       },
     ],
     img: flashcardoImg,
@@ -54,11 +66,11 @@ export const ProjectsList = [
     links: [
       {
         site: "https://github.com/pokemau/React-LOL-Champs",
-        icon: AiFillGithub,
+        icon: ghLogo,
       },
       {
         site: "https://lolchamps-dusky.vercel.app/",
-        icon: FiExternalLink,
+        icon: redirectIcon,
       },
     ],
     img: lolChampaImg,
@@ -73,11 +85,11 @@ export const ProjectsList = [
     links: [
       {
         site: "https://github.com/pokemau/sergdle",
-        icon: AiFillGithub,
+        icon: ghLogo,
       },
       {
         site: "https://sergdle.vercel.app/",
-        icon: FiExternalLink,
+        icon: redirectIcon,
       },
     ],
     img: sergdleImg,

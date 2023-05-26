@@ -1,8 +1,10 @@
 import Image from "next/image";
-import myImg from "../images/my_pic.jpg";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
-import Techstack from "@/components/techstack/Techstack";
+import TestTechstack from "@/components/techstack/Techstack";
+
+import myImg from "../images/my_pic.webp";
+import ghLogo from "../images/githubLogo.png";
+import linkedInLogo from "../images/linkedin.png";
 
 const Home = () => {
   return (
@@ -21,9 +23,10 @@ const Home = () => {
           md:flex-row md:my-4 lg:mt-8 md:items-start md:justify-center">
           <Image
             src={myImg}
+            width={300}
+            height={300}
             alt="Maurice Image"
-            className="w-[15rem] md:w-[16rem] rounded-md 
-              aspect-square"
+            className="rounded-md"
           />
 
           <div className="flex flex-col items-center">
@@ -45,14 +48,26 @@ const Home = () => {
                 href="https://github.com/pokemau"
                 target="_blank"
                 rel="noopener norefferer">
-                <AiFillGithub className="text-3xl hover:scale-110 transition-all" />
+                <Image
+                  width={35}
+                  height={35}
+                  src={ghLogo}
+                  alt="GitHub Logo"
+                  className="hover:scale-110 transition-all"
+                />
               </Link>
 
               <Link
                 href="https://www.linkedin.com/in/mauricetaneca/"
                 target="_blank"
                 rel="noopener norefferer">
-                <AiFillLinkedin className="text-3xl hover:scale-110 transition-all" />
+                <Image
+                  width={35}
+                  height={35}
+                  src={linkedInLogo}
+                  alt="LinkedIn Logo"
+                  className="hover:scale-110 transition-all"
+                />
               </Link>
             </div>
           </div>
@@ -66,7 +81,8 @@ const Home = () => {
           </p>
         </div>
 
-        <Techstack />
+        {/* <TechStack /> */}
+        <TestTechstack />
       </div>
 
       <div

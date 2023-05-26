@@ -1,5 +1,7 @@
 import ProjectCard from "@/components/projects/ProjectCard";
 
+import { ProjectsList } from "@/components/projects/ProjectsList";
+
 const Projects = () => {
   return (
     <>
@@ -12,7 +14,8 @@ const Projects = () => {
       <div
         className="bg-card-bg w-[90%] lg:w-[80%] h-[73vh] mx-auto overflow-y-auto 
         flex flex-col items-center gap-3 pt-4">
-        <ProjectCard />
+        {ProjectsList &&
+          ProjectsList.map((project) => <ProjectCard project={project} />)}
       </div>
 
       <div
