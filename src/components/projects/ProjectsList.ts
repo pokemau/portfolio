@@ -1,10 +1,10 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 
-import yahalloImg from "../../images/chatapp.png";
-import flashcardoImg from "../../images/flaschardo1.png";
-import lolChampaImg from "../../images/lolchamps.png";
-import sergdleImg from "../../images/sergdle.png";
+import yahalloImg from "../../images/chatapp.webp";
+import flashcardoImg from "../../images/flaschardo1.webp";
+import lolChampaImg from "../../images/lolchamps.webp";
+import sergdleImg from "../../images/sergdle.webp";
 
 export const ProjectsList = [
   {

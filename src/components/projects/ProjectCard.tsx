@@ -17,11 +17,12 @@ const ProjectCard = () => {
                 href={project.site}
                 target="_blank"
                 rel="noopener norefferer"
-                className="block w-full md:w-[67%] mx-auto hover:scale-[1.01] 
+                className="relative block w-full md:w-[67%] mx-auto hover:scale-[1.01] 
                 transition-all max-w-[35rem]">
                 <Image
                   src={project.img}
                   alt={project.id}
+                  priority
                   className="w-full mb-4 aspect-auto rounded-md
                   shadow-[0px_5px_20px_1px_#2b2b2a]"
                 />
@@ -43,12 +44,13 @@ const ProjectCard = () => {
               <div className="flex items-center gap-2 flex-wrap">
                 <BsStack />
                 {project.techUsed.map((tech) => (
-                  <p>{tech}</p>
+                  <p key={tech}>{tech}</p>
                 ))}
               </div>
               <div className="flex gap-4 text-[1.4rem]">
                 {project.links.map((link) => (
                   <Link
+                    key={link.site}
                     href={link.site}
                     className="hover:text-gray-400"
                     target="_blank"
