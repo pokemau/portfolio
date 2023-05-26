@@ -6,6 +6,7 @@ import nodeLogo from "../../images/node.png";
 import postgresLogo from "../../images/postgres.png";
 import firebaseLogo from "../../images/firebase.png";
 import tailwindLogo from "../../images/tailwind.png";
+
 import Image from "next/image";
 
 const Techstack = () => {
