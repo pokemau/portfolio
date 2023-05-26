@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ProjectType } from "./ProjectsList";
-import { BsStack } from "react-icons/bs";
 import Image from "next/image";
+
+import stackIcon from "../../images/stack.png";
 
 type ProjectCardTypes = {
   project: ProjectType;
@@ -33,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardTypes> = ({ project }) => {
         )}
         <div className="flex justify-between">
           <Link href={project.site} target="_blank" rel="noopener norefferer">
-            <h1 className="text-xl text-yel hover:text-yel-hover font-[700] mb-2">
+            <h1 className="text-xl text-yel hover:text-yel-hover mt-2 md:mt-0 font-[700] mb-2">
               {project.name}
             </h1>
           </Link>
@@ -42,7 +43,7 @@ const ProjectCard: React.FC<ProjectCardTypes> = ({ project }) => {
 
         <div className="flex items-center justify-between mt-4 flex-wrap gap-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <BsStack />
+            <Image src={stackIcon} alt="Stack Icon" width={28} height={28} />
             {project.techUsed.map((tech) => (
               <p key={tech}>{tech}</p>
             ))}
