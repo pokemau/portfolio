@@ -5,6 +5,7 @@ import myImg from "../../images/my_pic.webp";
 import ghLogo from "../../images/githubLogo.png";
 import linkedInLogo from "../../images/linkedin.png";
 import Techstack from "../techstack/Techstack";
+import emailLogo from "../../images/email.png";
 
 const Hero = () => {
   return (
@@ -58,6 +59,16 @@ const Hero = () => {
                 height={35}
                 src={linkedInLogo}
                 alt="LinkedIn Logo"
+                className="hover:scale-110 transition-all"
+              />
+            </Link>
+
+            <Link href="mailto: mauricetaneca7@gmail.com">
+              <Image
+                width={35}
+                height={35}
+                src={emailLogo}
+                alt="email icon"
                 className="hover:scale-110 transition-all"
               />
             </Link>
