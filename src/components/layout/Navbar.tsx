@@ -1,10 +1,6 @@
-// import Link from "next/link";
 import { Link } from "react-scroll";
-import { useRouter } from "next/router";
 
 const Navbar = () => {
-  const router = useRouter();
-
   return (
     <nav
       className="w-full bg-main-bg flex md:justify-between justify-center 
