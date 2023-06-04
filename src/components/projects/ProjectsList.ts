@@ -56,24 +56,24 @@ export const ProjectsList: ProjectType[] = [
     img: flashcardoImg,
   },
 
-  {
-    id: "lol-champs",
-    name: "LOL Champa",
-    site: "https://lolchamps-dusky.vercel.app/",
-    techUsed: ["REACTJS", "HTML", "CSS"],
-    desc: "A web app made with ReactJS which shows the basic information of a champion in the famous MOBA game League of Legends. The champion data is fetched from Riot Games's Data Dragon API.",
-    links: [
-      {
-        site: "https://github.com/pokemau/React-LOL-Champs",
-        icon: ghLogo,
-      },
-      {
-        site: "https://lolchamps-dusky.vercel.app/",
-        icon: redirectIcon,
-      },
-    ],
-    img: lolChampaImg,
-  },
+  // {
+  //   id: "lol-champs",
+  //   name: "LOL Champa",
+  //   site: "https://lolchamps-dusky.vercel.app/",
+  //   techUsed: ["REACTJS", "HTML", "CSS"],
+  //   desc: "A web app made with ReactJS which shows the basic information of a champion in the famous MOBA game League of Legends. The champion data is fetched from Riot Games's Data Dragon API.",
+  //   links: [
+  //     {
+  //       site: "https://github.com/pokemau/React-LOL-Champs",
+  //       icon: ghLogo,
+  //     },
+  //     {
+  //       site: "https://lolchamps-dusky.vercel.app/",
+  //       icon: redirectIcon,
+  //     },
+  //   ],
+  //   img: lolChampaImg,
+  // },
 
   {
     id: "sergdle",
