@@ -52,7 +52,7 @@ const Contact = () => {
             <input
               type="text"
               name="user_name"
-              className="text-black p-1 focus:outline-none w-full"
+              className="text-black p-1 focus:outline-none w-full bg-main-text"
             />
           </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
             <input
               type="email"
               name="user_email"
-              className="text-black p-1 focus:outline-none w-full"
+              className="text-black p-1 focus:outline-none w-full bg-main-text"
             />
           </div>
         </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           <textarea
             name="message"
             rows={10}
-            className="text-black p-2 focus:outline-none w-[100%]"
+            className="text-black p-2 focus:outline-none w-[100%] bg-main-text"
           />
           <input
             type="submit"
