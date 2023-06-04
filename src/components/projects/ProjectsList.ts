@@ -22,7 +22,6 @@ export const ProjectsList: ProjectType[] = [
     id: "yahallo-chat-app",
     name: "Yahallo",
     desc: "A real-time chat app with user authentication throught Firebase's Google Authentication.",
-    // descw: "A webapp with NextJS for the frontend and Firebase for the backend. The user can login through Firebase's built-in Google authentication. Users can send messages in a public chatroom with realtime updates",
     site: "https://yahallo.vercel.app/",
     techUsed: ["NEXTJS", "FIREBASE", "TAILWIND"],
     links: [
