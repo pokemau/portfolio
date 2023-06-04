@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav
       className="w-full bg-main-bg flex md:justify-between justify-center 
-      items-center px-16 md:py-0 transition-all fixed top-0 left-0 z-10">
+      items-center px-16 py-2 md:py-0 transition-all fixed top-0 left-0 z-10">
       <div className="hidden md:flex items-center justify-center">
         <Link
           to="home"
