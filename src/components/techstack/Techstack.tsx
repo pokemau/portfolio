@@ -39,7 +39,7 @@ const Techstack = () => {
             <p>JavaScript</p>
           </div>
 
-          <div className="flex items-center gap-2 text-[1.3rem]">
+          {/* <div className="flex items-center gap-2 text-[1.3rem]">
             <Image
               width={40}
               height={40}
@@ -48,7 +48,7 @@ const Techstack = () => {
               className="rounded-md"
             />
             <p>Express JS</p>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-2 text-[1.3rem]">
             <Image
@@ -73,7 +73,7 @@ const Techstack = () => {
             />
             <p>Node JS</p>
           </div>
-          <div className="flex items-center gap-2 text-[1.3rem]">
+          {/* <div className="flex items-center gap-2 text-[1.3rem]">
             <Image
               width={40}
               height={40}
@@ -82,7 +82,7 @@ const Techstack = () => {
               className="rounded-md"
             />
             <p>PostgreSQL</p>
-          </div>
+          </div> */}
           <div className="flex items-center gap-2 text-[1.3rem]">
             <Image
               width={40}
