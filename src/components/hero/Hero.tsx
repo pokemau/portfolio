@@ -32,7 +32,7 @@ const Hero = () => {
             <h3
               className="text-2xl md:mt-2 md:text-[1.8rem] font-normal
                 lg:text-[2.4rem] font-[Oswald]">
-              Web Developer
+              Software Developer
             </h3>
           </div>
 
