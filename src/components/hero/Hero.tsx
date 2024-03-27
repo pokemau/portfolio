@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import myImg from "../../images/my_pic.webp";
+import myImg from "../../images/myimg.jpg";
 import ghLogo from "../../images/githubLogo.png";
 import linkedInLogo from "../../images/linkedin.png";
 import Techstack from "../techstack/Techstack";
