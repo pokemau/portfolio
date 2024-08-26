@@ -14,7 +14,7 @@ const Contact = () => {
     ) {
       emailjs
         .sendForm(
-          "service_muiruwp",
+          "service_jzjceee",
           "template_fveanzm",
           form.current!,
           "K6-y1L9o-Pusfm4v6"
@@ -52,6 +52,7 @@ const Contact = () => {
             <input
               type="text"
               name="user_name"
+              required
               className="text-black p-1 focus:outline-none w-full bg-main-text"
             />
           </div>
@@ -61,6 +62,7 @@ const Contact = () => {
             <input
               type="email"
               name="user_email"
+              required
               className="text-black p-1 focus:outline-none w-full bg-main-text"
             />
           </div>
