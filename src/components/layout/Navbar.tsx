@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <nav
       className="w-full bg-main-bg flex md:justify-between justify-center 
-      items-center px-16 py-2 md:py-0 transition-all fixed top-0 left-0 z-10">
+      items-center px-16 py-2 md:py-0 transition-all fixed top-0 left-0 z-10"
+    >
       <div className="hidden md:flex items-center justify-center">
         <Link
           to="home"
@@ -12,10 +13,12 @@ const Navbar = () => {
           offset={-100}
           duration={500}
           spy={true}
-          className="cursor-pointer">
+          className="cursor-pointer"
+        >
           <h1
             className="text-[2.5rem] lg:text-[3rem] font-bold hover:text-yel
-          transition-all duration-100">
+          transition-all duration-100"
+          >
             MT
           </h1>
         </Link>
@@ -30,7 +33,8 @@ const Navbar = () => {
           duration={500}
           spy={true}
           className="text-lg p-2 rounded-tl rounded-tr font-semibold
-          hover:border-yel cursor-pointer border-b-[3px] border-transparent">
+          hover:border-yel cursor-pointer border-b-[3px] border-transparent"
+        >
           Home
         </Link>
 
@@ -42,11 +46,12 @@ const Navbar = () => {
           duration={500}
           spy={true}
           className="text-lg p-2 rounded-tl rounded-tr font-semibold
-          hover:border-yel cursor-pointer border-b-[3px] border-transparent">
+          hover:border-yel cursor-pointer border-b-[3px] border-transparent"
+        >
           Projects
         </Link>
 
-        <Link
+        {/* <Link
           activeClass="border-yel"
           to="contact"
           smooth={true}
@@ -56,7 +61,7 @@ const Navbar = () => {
           className="text-lg p-2 rounded-tl rounded-tr font-semibold
           hover:border-yel cursor-pointer border-b-[3px] border-transparent">
           Contact
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

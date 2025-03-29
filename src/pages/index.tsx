@@ -12,10 +12,11 @@ const Home = () => {
 
       <div
         className="bg-card-bg w-[90%] lg:w-[80%] mx-auto overflow-y-auto
-        flex flex-col items-center mt-[4rem] md:mt-[6rem] mb-8 pb-8 rounded-lg">
+        flex flex-col items-center mt-[4rem] md:mt-[6rem] mb-8 pb-8 rounded-lg"
+      >
         <Hero />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </>
   );
